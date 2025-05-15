@@ -1,5 +1,6 @@
-import 'package:llama_in_dart/llama_in_dart.dart' as llama_in_dart;
+import 'package:llama_in_dart/llama_bindings.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${llama_in_dart.calculate()}!');
+void main() {
+  final timestamp = ggmlTimeMs();
+  print('현재 ggml 시간(ms): $timestamp');
 }

@@ -1,15 +1,10 @@
 name: llama_in_dart
-description: A sample command-line application.
+description: Dart FFI test with llama.cpp
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/SeongminJaden/llama_in_dart
 
 environment:
-  sdk: ^3.7.2
+  sdk: '>=3.0.0 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
-
-dev_dependencies:
-  lints: ^5.0.0
-  test: ^1.24.0
+  ffi: ^2.1.0
